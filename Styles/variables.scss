@@ -1,0 +1,11 @@
+:root {
+  --black: #000;
+  --white: #ffffff;
+  --red: #ff0000;
+  --purple: #8a2be2;
+  --title-shadow: -1px 2px 0 var(--black), 2px 2px 0 var(--black),
+    2px -1px 0 var(--black), -1px -1px 0 var(--black);
+  --news-shadow: var(--purple) -1px 2px 2px;
+  --text-shadow: -1px 2px 0 var(--black), 2px 2px 0 var(--black),
+    2px -1px 0 var(--black), -1px -1px 0 var(--black);
+}
