@@ -1,5 +1,6 @@
-@import "variables";
-@import "animations";
+@import "./_variables";
+@import "./_animations";
+
 nav {
   display: flex;
   justify-content: flex-start;
@@ -31,18 +32,18 @@ header {
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
     no-repeat, no-repeat;
   background-position: 0%, 15%, 32%, 49%, 66%, 83%, 99%;
-  background-color: var(--black);
+  background-color: $--black;
   background-size: contain, contain, contain, contain, contain, contain, contain;
 }
 
 .title {
-  color: var(--red);
+  color: $--red;
   font-size: 50px;
-  text-shadow: var(--title-shadow);
+  text-shadow: $--title-shadow;
 }
 
 body {
-  background-color: var(--black);
+  background-color: $--black;
   @extend .text;
 }
 .form {
@@ -55,14 +56,14 @@ body {
   display: flex;
   justify-content: center;
   font-size: 25px;
-  color: var(--red);
-  text-shadow: var(--news-shadow);
+  color: $--red;
+  text-shadow: $--news-shadow;
 }
 
 .text {
-  color: var(--white);
+  color: $--white;
   font-size: 10px;
-  text-shadow: var(--text-shadow);
+  text-shadow: $--text-shadow;
 }
 
 main {
@@ -104,4 +105,9 @@ a {
   flex-wrap: wrap;
   position: relative;
   top: 10px;
+}
+
+h2 img {
+  height: 100px;
+  width: 100px;
 }

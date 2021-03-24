@@ -1,106 +1,94 @@
-:root {
-  --black: #000;
-  --white: #ffffff;
-  --red: #ff0000;
-  --purple: #8a2be2;
-  --title-shadow: -1px 2px 0 var(--black), 2px 2px 0 var(--black),
-    2px -1px 0 var(--black), -1px -1px 0 var(--black);
-  --news-shadow: var(--purple) -1px 2px 2px;
-  --text-shadow: -1px 2px 0 var(--black), 2px 2px 0 var(--black),
-    2px -1px 0 var(--black), -1px -1px 0 var(--black);
-}
-
 @-webkit-keyframes shake {
   0% {
     -webkit-transform: translate(1px, 1px) rotate(0deg);
-    transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
   }
   10% {
     -webkit-transform: translate(-1px, -2px) rotate(-1deg);
-    transform: translate(-1px, -2px) rotate(-1deg);
+            transform: translate(-1px, -2px) rotate(-1deg);
   }
   20% {
     -webkit-transform: translate(-3px, 0px) rotate(1deg);
-    transform: translate(-3px, 0px) rotate(1deg);
+            transform: translate(-3px, 0px) rotate(1deg);
   }
   30% {
     -webkit-transform: translate(3px, 2px) rotate(0deg);
-    transform: translate(3px, 2px) rotate(0deg);
+            transform: translate(3px, 2px) rotate(0deg);
   }
   40% {
     -webkit-transform: translate(1px, -1px) rotate(1deg);
-    transform: translate(1px, -1px) rotate(1deg);
+            transform: translate(1px, -1px) rotate(1deg);
   }
   50% {
     -webkit-transform: translate(-1px, 2px) rotate(-1deg);
-    transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
   }
   60% {
     -webkit-transform: translate(-3px, 1px) rotate(0deg);
-    transform: translate(-3px, 1px) rotate(0deg);
+            transform: translate(-3px, 1px) rotate(0deg);
   }
   70% {
     -webkit-transform: translate(3px, 1px) rotate(-1deg);
-    transform: translate(3px, 1px) rotate(-1deg);
+            transform: translate(3px, 1px) rotate(-1deg);
   }
   80% {
     -webkit-transform: translate(-1px, -1px) rotate(1deg);
-    transform: translate(-1px, -1px) rotate(1deg);
+            transform: translate(-1px, -1px) rotate(1deg);
   }
   90% {
     -webkit-transform: translate(1px, 2px) rotate(0deg);
-    transform: translate(1px, 2px) rotate(0deg);
+            transform: translate(1px, 2px) rotate(0deg);
   }
   100% {
     -webkit-transform: translate(1px, -2px) rotate(-1deg);
-    transform: translate(1px, -2px) rotate(-1deg);
+            transform: translate(1px, -2px) rotate(-1deg);
   }
 }
 
 @keyframes shake {
   0% {
     -webkit-transform: translate(1px, 1px) rotate(0deg);
-    transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
   }
   10% {
     -webkit-transform: translate(-1px, -2px) rotate(-1deg);
-    transform: translate(-1px, -2px) rotate(-1deg);
+            transform: translate(-1px, -2px) rotate(-1deg);
   }
   20% {
     -webkit-transform: translate(-3px, 0px) rotate(1deg);
-    transform: translate(-3px, 0px) rotate(1deg);
+            transform: translate(-3px, 0px) rotate(1deg);
   }
   30% {
     -webkit-transform: translate(3px, 2px) rotate(0deg);
-    transform: translate(3px, 2px) rotate(0deg);
+            transform: translate(3px, 2px) rotate(0deg);
   }
   40% {
     -webkit-transform: translate(1px, -1px) rotate(1deg);
-    transform: translate(1px, -1px) rotate(1deg);
+            transform: translate(1px, -1px) rotate(1deg);
   }
   50% {
     -webkit-transform: translate(-1px, 2px) rotate(-1deg);
-    transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
   }
   60% {
     -webkit-transform: translate(-3px, 1px) rotate(0deg);
-    transform: translate(-3px, 1px) rotate(0deg);
+            transform: translate(-3px, 1px) rotate(0deg);
   }
   70% {
     -webkit-transform: translate(3px, 1px) rotate(-1deg);
-    transform: translate(3px, 1px) rotate(-1deg);
+            transform: translate(3px, 1px) rotate(-1deg);
   }
   80% {
     -webkit-transform: translate(-1px, -1px) rotate(1deg);
-    transform: translate(-1px, -1px) rotate(1deg);
+            transform: translate(-1px, -1px) rotate(1deg);
   }
   90% {
     -webkit-transform: translate(1px, 2px) rotate(0deg);
-    transform: translate(1px, 2px) rotate(0deg);
+            transform: translate(1px, 2px) rotate(0deg);
   }
   100% {
     -webkit-transform: translate(1px, -2px) rotate(-1deg);
-    transform: translate(1px, -2px) rotate(-1deg);
+            transform: translate(1px, -2px) rotate(-1deg);
   }
 }
 
@@ -109,10 +97,10 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -ms-flex-line-pack: justify;
-  align-content: space-between;
+      align-content: space-between;
 }
 
 .icon1 {
@@ -130,32 +118,26 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.background,
-header {
-  background-image: url("../Assets/Baki.jpg"), url("../Assets/Kuro.jpg"),
-    url("../Assets/GS.jpg"), url("../Assets/Ichigo.jpg"),
-    url("../Assets/Luffy.jpg"), url("../Assets/Hisoka.jpg"),
-    url("../Assets/Ohma.jpg");
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
-    no-repeat, no-repeat;
+.background, header {
+  background-image: url("../Assets/Baki.jpg"), url("../Assets/Kuro.jpg"), url("../Assets/GS.jpg"), url("../Assets/Ichigo.jpg"), url("../Assets/Luffy.jpg"), url("../Assets/Hisoka.jpg"), url("../Assets/Ohma.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: 0%, 15%, 32%, 49%, 66%, 83%, 99%;
-  background-color: var(--black);
+  background-color: black;
   background-size: contain, contain, contain, contain, contain, contain, contain;
 }
 
-.title,
-header {
-  color: var(--red);
+.title, header {
+  color: red;
   font-size: 50px;
-  text-shadow: var(--title-shadow);
+  text-shadow: -1px 2px 0 black, 2px 2px 0 black, 2px -1px 0 black, -1px -1px 0 black;
 }
 
 body {
-  background-color: var(--black);
+  background-color: black;
 }
 
 .form {
@@ -163,11 +145,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .news {
@@ -175,18 +157,17 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 25px;
-  color: var(--red);
-  text-shadow: var(--news-shadow);
+  color: red;
+  text-shadow: blueviolet -1px 2px 2px;
 }
 
-.text,
-body {
-  color: var(--white);
+.text, body {
+  color: white;
   font-size: 10px;
-  text-shadow: var(--text-shadow);
+  text-shadow: -1px 2px 0 black, 2px 2px 0 black, 2px -1px 0 black, -1px -1px 0 black;
 }
 
 main {
@@ -194,13 +175,13 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .column {
@@ -209,11 +190,11 @@ main {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .portadas {
@@ -227,9 +208,9 @@ a {
 
 a:hover {
   -webkit-animation: shake 0.5s;
-  animation: shake 0.5s;
+          animation: shake 0.5s;
   -webkit-animation-iteration-count: 5;
-  animation-iteration-count: 5;
+          animation-iteration-count: 5;
 }
 
 .footer {
@@ -240,7 +221,7 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   font-size: 15px;
 }
 
@@ -249,11 +230,16 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   position: relative;
   top: 10px;
+}
+
+h2 img {
+  height: 100px;
+  width: 100px;
 }
 /*# sourceMappingURL=index.css.map */
