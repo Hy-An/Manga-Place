@@ -203,7 +203,7 @@ main {
 }
 
 a {
-  color: var(--red);
+  color: #ff0000;
 }
 
 a:hover {
@@ -220,8 +220,12 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
   font-size: 15px;
 }
 
