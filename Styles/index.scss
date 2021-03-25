@@ -1,0 +1,114 @@
+@import "variables";
+@import "animations";
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-between;
+}
+
+.icon1 {
+  width: 50px;
+  height: 48px;
+}
+
+.icon2 {
+  width: 60px;
+  height: 48px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  @extend .title;
+  @extend .background;
+}
+
+.background {
+  background-image: url("../Assets/Baki.jpg"), url("../Assets/Kuro.jpg"),
+    url("../Assets/GS.jpg"), url("../Assets/Ichigo.jpg"),
+    url("../Assets/Luffy.jpg"), url("../Assets/Hisoka.jpg"),
+    url("../Assets/Ohma.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat, no-repeat;
+  background-position: 0%, 15%, 32%, 49%, 66%, 83%, 99%;
+  background-color: $--black;
+  background-size: contain, contain, contain, contain, contain, contain, contain;
+}
+
+.title {
+  color: $--red;
+  font-size: 50px;
+  text-shadow: $--title-shadow;
+}
+
+body {
+  background-color: $--black;
+  @extend .text;
+}
+.form {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: $--red;
+  text-shadow: $--news-shadow;
+}
+
+.text {
+  color: $--white;
+  font-size: 10px;
+  text-shadow: $--text-shadow;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portadas {
+  width: 155px;
+  height: 195px;
+}
+
+a {
+  color: $--red;
+  &:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: 5;
+  }
+}
+
+.footer {
+  position: relative;
+  top: 120px;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  font-size: 15px;
+}
+.gif {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  position: relative;
+  top: 10px;
+}
+
+h2 img {
+  height: 100px;
+  width: 100px;
+}
